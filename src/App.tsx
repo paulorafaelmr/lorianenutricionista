@@ -3,7 +3,6 @@ import {
   Leaf,
   Heart,
   Shield,
-  Star,
   MapPin,
   Clock,
   Phone,
@@ -690,67 +689,6 @@ function BariatricProgramSection() {
 }
 
 // ============================================================
-// DEPOIMENTOS (PROVA SOCIAL)
-// ============================================================
-function TestimonialsSection() {
-  const placeholders = [
-    {
-      name: "Paciente A.",
-      tag: "Pós-bariátrica",
-      text: "Espaço reservado para depoimento de paciente. Insira aqui relatos reais sobre a experiência no atendimento com a Loriane.",
-    },
-    {
-      name: "Paciente B.",
-      tag: "Transtorno alimentar",
-      text: "Espaço reservado para depoimento de paciente. Insira aqui relatos reais sobre a experiência e os resultados alcançados.",
-    },
-    {
-      name: "Paciente C.",
-      tag: "Acompanhamento individualizado",
-      text: "Espaço reservado para depoimento de paciente. Insira aqui relatos reais que reforcem a autoridade e o acolhimento da Loriane.",
-    },
-  ];
-
-  return (
-    <section className="py-24 bg-card">
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="text-center mb-16">
-          <SectionLabel>O que dizem as pacientes</SectionLabel>
-          <SectionTitle className="mb-5">Histórias reais de transformação</SectionTitle>
-          <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Cada história é única. Cada resultado é fruto de um acompanhamento individualizado, com ciência e cuidado humano.
-          </p>
-        </div>
-
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {placeholders.map((t, i) => (
-            <div key={i} className="bg-background rounded-2xl p-7 border border-border shadow-sm hover:shadow-md transition-all duration-300">
-              <div className="flex gap-1 mb-5">
-                {[...Array(5)].map((_, j) => (
-                  <Star key={j} size={16} fill="oklch(0.82 0.15 75)" className="opacity-40" />
-                ))}
-              </div>
-              <p className="font-body text-sm text-muted-foreground leading-relaxed italic mb-6 opacity-60">
-                "{t.text}"
-              </p>
-              <div className="flex items-center gap-3 pt-4 border-t border-border">
-                <div className="w-10 h-10 rounded-full flex items-center justify-center" style={{ backgroundColor: "oklch(0.96 0.015 155)" }}>
-                  <Heart size={18} className="text-primary opacity-40" />
-                </div>
-                <div>
-                  <p className="font-display font-semibold text-primary text-sm">{t.name}</p>
-                  <p className="font-body text-xs text-muted-foreground">{t.tag}</p>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-// ============================================================
 // FAQ
 // ============================================================
 function FAQSection() {
@@ -1021,7 +959,6 @@ export default function App() {
       <ServicesSection />
       <ConscienciaNutreProgramSection />
       <BariatricProgramSection />
-      <TestimonialsSection />
       <FAQSection />
       <LocationSection />
       <FinalCTASection />
