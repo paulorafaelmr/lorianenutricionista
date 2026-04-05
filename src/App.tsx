@@ -196,7 +196,7 @@ function ForWhoSection() {
     {
       icon: <Heart size={24} className="text-primary" />,
       title: "Reconexão com a Alimentação",
-      description: "Para quem deseja reconstruir uma relação mais leve, consciente e sustentável com a comida — sem dietas rígidas, sem culpa.",
+      description: "Para quem deseja reconstruir uma relação mais leve, consciente e sustentável com a comida. Sem dietas rígidas, sem culpa.",
     },
   ];
 
@@ -207,7 +207,7 @@ function ForWhoSection() {
           <SectionLabel>Para quem é o atendimento</SectionLabel>
           <SectionTitle className="mb-5">Você se reconhece nessa história?</SectionTitle>
           <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            O atendimento nutricional da Loriane é voltado a pessoas que buscam um cuidado especializado, individualizado e humanizado. Não existe um perfil único — existe a <strong className="text-primary">sua</strong> história.
+            O atendimento nutricional da Loriane é voltado a pessoas que buscam um cuidado especializado, individualizado e humanizado. Não existe um perfil único: existe a <strong className="text-primary">sua</strong> história.
           </p>
         </div>
 
@@ -254,10 +254,10 @@ function PainsSection() {
             <SectionLabel>Você não está sozinha</SectionLabel>
             <SectionTitle className="mb-6">Eu sei o quanto isso é difícil</SectionTitle>
             <p className="font-body text-lg text-muted-foreground leading-relaxed mb-6">
-              A relação com a alimentação vai muito além do que comemos. Ela carrega memórias, emoções, medos e histórias. E quando essa relação se torna um peso, o sofrimento é real — mesmo que invisível para quem está de fora.
+              A relação com a alimentação vai muito além do que comemos. Ela carrega memórias, emoções, medos e histórias. E quando essa relação se torna um peso, o sofrimento é real, mesmo que invisível para quem está de fora.
             </p>
             <p className="font-body text-base text-muted-foreground leading-relaxed mb-8">
-              Seja no pós-bariátrica, na luta contra os transtornos alimentares ou na busca por uma relação mais saudável com a comida, você merece um acompanhamento que te veja como pessoa — não apenas como diagnóstico.
+              Seja no pós-bariátrica, na luta contra os transtornos alimentares ou na busca por uma relação mais saudável com a comida, você merece um acompanhamento que te veja como pessoa e não apenas como diagnóstico.
             </p>
             <CTAButton>
               <MessageCircle size={18} />
@@ -350,7 +350,7 @@ function DifferentialsSection() {
     {
       icon: <Leaf size={28} className="text-primary" />,
       title: "Sem Alimentos Proibidos",
-      desc: "A abordagem respeita sua relação com a comida. Sem listas de proibições, sem culpa — com equilíbrio e consciência real.",
+      desc: "A abordagem respeita sua relação com a comida. Sem listas de proibições, sem culpa. Com equilíbrio e consciência real.",
     },
     {
       icon: <Brain size={28} className="text-primary" />,
@@ -404,8 +404,8 @@ function DifferentialsSection() {
 function AboutSection() {
   const credentials = [
     "Doutora e Mestra em Ciências da Saúde (UEL)",
-    "Aprimoramento em Transtornos Alimentares — AMBULIM (IPq-HCFMUSP)",
-    "Membro COESAS — Sociedade Brasileira de Cirurgia Bariátrica e Metabólica (SBCBM)",
+    "Aprimoramento em Transtornos Alimentares pelo AMBULIM (IPq-HCFMUSP)",
+    "Membro COESAS da Sociedade Brasileira de Cirurgia Bariátrica e Metabólica (SBCBM)",
     "Membro International Federation for the Surgery of Obesity and Metabolic Disorders (IFSO)",
     "CRN 8 - 5669",
   ];
@@ -439,7 +439,7 @@ function AboutSection() {
           <div>
             <SectionLabel>Sobre a profissional</SectionLabel>
             <h2 className="font-display font-bold text-3xl md:text-4xl text-primary mb-2">Loriane Costa Godinho</h2>
-            <p className="font-body font-medium text-muted-foreground mb-6 text-lg">Nutricionista · Nutrição Consciente</p>
+            <p className="font-body font-medium text-muted-foreground mb-6 text-lg">Nutricionista | Nutrição Consciente</p>
 
             <p className="font-body text-base text-muted-foreground leading-relaxed mb-5">
               Com formação científica sólida e atuação clínica especializada, Loriane Costa Godinho construiu uma trajetória comprometida com o cuidado humano em suas formas mais profundas.
@@ -572,7 +572,7 @@ function ConscienciaNutreProgramSection() {
               <span style={{ color: "oklch(0.52 0.14 148)" }}>"Consciência que Nutre"</span>
             </h2>
             <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-              Mais do que um método, é uma forma de cuidar. O programa "Consciência que Nutre" é o diferencial central da marca da Loriane — uma abordagem autoral que une ciência, comportamento alimentar e cuidado humano profundo.
+              Mais do que um método, é uma forma de cuidar. O programa "Consciência que Nutre" é o diferencial central da marca da Loriane: uma abordagem autoral que une ciência, comportamento alimentar e cuidado humano profundo.
             </p>
           </div>
 
@@ -638,7 +638,7 @@ function BariatricProgramSection() {
             <span style={{ color: "oklch(0.52 0.14 148)" }}>Pós-Bariátrica</span>
           </h2>
           <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            A cirurgia bariátrica e metabólica transforma a anatomia — mas o cuidado nutricional especializado é o que garante resultados duradouros e qualidade de vida real.
+            A cirurgia bariátrica e metabólica transforma a anatomia. O cuidado nutricional especializado é o que garante resultados duradouros e qualidade de vida real.
           </p>
         </div>
 
@@ -767,7 +767,7 @@ function FAQSection() {
     },
     {
       q: "Você atende pacientes bariátricos e metabólicos?",
-      a: "Sim. Tenho atuação especializada no cuidado nutricional em todas as fases — pré e pós-cirurgia bariátrica e metabólica. Sou membro da SBCBM (Sociedade Brasileira de Cirurgia Bariátrica e Metabólica) e da IFSO.",
+      a: "Sim. Tenho atuação especializada no cuidado nutricional em todas as fases, incluindo pré e pós-cirurgia bariátrica e metabólica. Sou membro da SBCBM (Sociedade Brasileira de Cirurgia Bariátrica e Metabólica) e da IFSO.",
     },
     {
       q: "Você atende casos de compulsão alimentar, bulimia e anorexia?",
@@ -775,7 +775,7 @@ function FAQSection() {
     },
     {
       q: "O atendimento inclui plano alimentar?",
-      a: "Sim, quando clinicamente indicado. Mas o acompanhamento vai muito além do plano alimentar. O foco é no comportamento alimentar, na sua relação com a comida e no desenvolvimento de autonomia real — sustentável no longo prazo.",
+      a: "Sim, quando clinicamente indicado. Mas o acompanhamento vai muito além do plano alimentar. O foco é no comportamento alimentar, na sua relação com a comida e no desenvolvimento de autonomia real e sustentável no longo prazo.",
     },
     {
       q: "O acompanhamento é individualizado?",
@@ -783,7 +783,7 @@ function FAQSection() {
     },
     {
       q: "Qual o horário de atendimento?",
-      a: "Atendo de segunda a sexta das 8h às 12h e das 14h às 19h. Aos sábados, das 8h às 12h. Para o atendimento online, os horários são flexíveis — entre em contato pelo WhatsApp para verificar disponibilidade.",
+      a: "Atendo de segunda a sexta das 8h às 12h e das 14h às 19h. Aos sábados, das 8h às 12h. Para o atendimento online, os horários são flexíveis. Entre em contato pelo WhatsApp para verificar disponibilidade.",
     },
     {
       q: "Como faço para agendar pelo WhatsApp?",
