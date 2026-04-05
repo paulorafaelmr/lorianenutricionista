@@ -101,8 +101,8 @@ function HeroSection() {
             <h1 className="font-display font-bold text-4xl md:text-5xl lg:text-6xl text-primary leading-tight mb-6">
               Nutrição especializada com{" "}
               <span style={{ color: "oklch(0.52 0.14 148)" }}>ciência</span>,{" "}
-              <span style={{ color: "oklch(0.82 0.05 5)", filter: "saturate(2)" }}>acolhimento</span>{" "}
-              e consciência
+              <span style={{ color: "oklch(0.52 0.14 148)" }}>acolhimento</span>{" "}
+              e <span style={{ color: "oklch(0.52 0.14 148)" }}>consciência</span>
             </h1>
 
             <p className="font-body text-lg text-muted-foreground leading-relaxed mb-8 max-w-lg">
