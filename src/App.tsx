@@ -17,6 +17,7 @@ import {
   Sparkles,
   BookOpen,
   MessageCircle,
+  Star,
 } from "lucide-react";
 
 const WHATSAPP_NUMBER = "5543988100088";
