@@ -243,7 +243,7 @@ function PainsSection() {
     "Episódios de compulsão seguidos de culpa profunda",
     "Efeito sanfona que parece impossível de parar",
     "Desgaste emocional com o próprio corpo",
-    "Sensação de estar perdida no pós-operatório",
+    "Sensação de estar perdido/a no pós-operatório",
   ];
 
   return (
@@ -251,7 +251,7 @@ function PainsSection() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <SectionLabel>Você não está sozinha</SectionLabel>
+            <SectionLabel>Você não está sozinho/a</SectionLabel>
             <SectionTitle className="mb-6">Eu sei o quanto isso é difícil</SectionTitle>
             <p className="font-body text-lg text-muted-foreground leading-relaxed mb-6">
               A relação com a alimentação vai muito além do que comemos. Ela carrega memórias, emoções, medos e histórias. E quando essa relação se torna um peso, o sofrimento é real, mesmo que invisível para quem está de fora.
@@ -261,7 +261,7 @@ function PainsSection() {
             </p>
             <CTAButton>
               <MessageCircle size={18} />
-              Quero ser acompanhada
+              Quero ser acompanhado/a
             </CTAButton>
           </div>
 
@@ -345,7 +345,7 @@ function DifferentialsSection() {
     {
       icon: <Heart size={28} className="text-primary" />,
       title: "Olhar Humano e Sensível",
-      desc: "O cuidado vai além da nutrição. Aqui você é acolhida com respeito, sem julgamentos e com atenção real à sua história.",
+      desc: "O cuidado vai além da nutrição. Aqui você é acolhido/a com respeito, sem julgamentos e com atenção real à sua história.",
     },
     {
       icon: <Leaf size={28} className="text-primary" />,
@@ -578,7 +578,7 @@ function ConscienciaNutreProgramSection() {
 
           <div className="bg-background rounded-3xl border border-border p-8 md:p-12 shadow-sm mb-10">
             <p className="font-body text-base text-muted-foreground leading-relaxed mb-8">
-              O nome não é apenas um título. Ele representa uma filosofia de atendimento: a convicção de que a nutrição, quando praticada com consciência, tem o poder de transformar não só o corpo, mas a forma como você se relaciona com a comida, com o seu dia a dia e com você mesma.
+              O nome não é apenas um título. Ele representa uma filosofia de atendimento: a convicção de que a nutrição, quando praticada com consciência, tem o poder de transformar não só o corpo, mas a forma como você se relaciona com a comida, com o seu dia a dia e consigo mesmo/a.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4">
@@ -616,7 +616,7 @@ function BariatricProgramSection() {
     "Fome emocional que permanece após a cirurgia",
     "Dumping, entalos e desconfortos digestivos",
     "Queda de cabelo, fraqueza e deficiências nutricionais",
-    "Sensação de estar perdida no pós-operatório",
+    "Sensação de estar perdido/a no pós-operatório",
   ];
 
   const outcomes = [
@@ -702,7 +702,7 @@ function FAQSection() {
     },
     {
       q: "Como funciona a primeira consulta?",
-      a: "Na primeira consulta, realizamos uma avaliação nutricional completa: histórico de saúde, hábitos alimentares, comportamento alimentar, exames e objetivos. É um momento de escuta ativa, sem julgamentos, para entender sua história e construir um plano de cuidado real para você.",
+      a: "Na primeira consulta, realizamos uma avaliação nutricional completa: histórico de saúde, hábitos alimentares, comportamento alimentar, exames e objetivos. É um momento de escuta ativa, sem julgamentos, para entender sua história e construir um plano de cuidado real para você, respeitando sua individualidade.",
     },
     {
       q: "Você atende pacientes bariátricos e metabólicos?",
@@ -718,7 +718,7 @@ function FAQSection() {
     },
     {
       q: "O acompanhamento é individualizado?",
-      a: "100%. Não existem protocolos genéricos aqui. Cada pessoa tem uma história única, e o atendimento se adapta completamente à sua realidade, seus objetivos e as suas necessidades clínicas e emocionais.",
+      a: "100%. Não existem protocolos genéricos aqui. Cada pessoa tem uma história única, e o atendimento se adapta completamente à sua realidade, seus objetivos e suas necessidades clínicas e emocionais — independentemente do gênero.",
     },
     {
       q: "Qual o horário de atendimento?",
@@ -726,7 +726,7 @@ function FAQSection() {
     },
     {
       q: "Como faço para agendar pelo WhatsApp?",
-      a: "É simples! Clique no botão de WhatsApp nesta página e envie uma mensagem. Vou te responder com carinho para esclarecer suas dúvidas e agendar sua primeira consulta.",
+      a: "É simples! Clique no botão de WhatsApp nesta página e envie uma mensagem. Responderei com carinho para esclarecer suas dúvidas e agendar sua primeira consulta.",
     },
   ];
 
@@ -737,7 +737,7 @@ function FAQSection() {
           <SectionLabel>Dúvidas frequentes</SectionLabel>
           <SectionTitle className="mb-5">Perguntas frequentes</SectionTitle>
           <p className="font-body text-lg text-muted-foreground max-w-xl mx-auto leading-relaxed">
-            Ficou com alguma dúvida? Aqui estão as perguntas mais frequentes das pacientes.
+            Ficou com alguma dúvida? Aqui estão as perguntas mais frequentes dos pacientes.
           </p>
         </div>
 
