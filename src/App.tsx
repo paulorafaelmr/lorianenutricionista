@@ -106,7 +106,7 @@ function HeroSection() {
             </h1>
 
             <p className="font-body text-lg text-muted-foreground leading-relaxed mb-8 max-w-lg">
-              Um cuidado nutricional que respeita sua história, seu corpo e sua relação com a comida. Com ciência, humanidade e atenção individualizada a cada etapa da sua jornada.
+              Um cuidado nutricional que respeita cada história, cada corpo e cada relação com a comida. Com ciência, humanidade e atenção individualizada a cada etapa da jornada.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-10">
@@ -207,7 +207,7 @@ function ForWhoSection() {
           <SectionLabel>Para quem é o atendimento</SectionLabel>
           <SectionTitle className="mb-5">Você se reconhece nessa história?</SectionTitle>
           <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            O atendimento nutricional da Loriane é voltado a pessoas que buscam um cuidado especializado, individualizado e humanizado. Não existe um perfil único: existe a <strong className="text-primary">sua</strong> história.
+            O atendimento nutricional da Loriane é voltado a pessoas que buscam um cuidado especializado, individualizado e humanizado. Não existe um perfil único: existe a <strong className="text-primary">sua</strong> história — única, legítima e merecedora de atenção real.
           </p>
         </div>
 
@@ -243,7 +243,7 @@ function PainsSection() {
     "Episódios de compulsão seguidos de culpa profunda",
     "Efeito sanfona que parece impossível de parar",
     "Desgaste emocional com o próprio corpo",
-    "Sensação de estar perdido/a no pós-operatório",
+    "Sensação de desorientação no pós-operatório",
   ];
 
   return (
@@ -251,17 +251,17 @@ function PainsSection() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <SectionLabel>Você não está sozinho/a</SectionLabel>
+            <SectionLabel>Você não está sozinho nessa</SectionLabel>
             <SectionTitle className="mb-6">Eu sei o quanto isso é difícil</SectionTitle>
             <p className="font-body text-lg text-muted-foreground leading-relaxed mb-6">
               A relação com a alimentação vai muito além do que comemos. Ela carrega memórias, emoções, medos e histórias. E quando essa relação se torna um peso, o sofrimento é real, mesmo que invisível para quem está de fora.
             </p>
             <p className="font-body text-base text-muted-foreground leading-relaxed mb-8">
-              Seja no pós-bariátrica, na luta contra os transtornos alimentares ou na busca por uma relação mais saudável com a comida, você merece um acompanhamento que te veja como pessoa e não apenas como diagnóstico.
+              Seja no pós-bariátrica, na luta contra os transtornos alimentares ou na busca por uma relação mais saudável com a comida, você merece um acompanhamento que te enxergue como pessoa — e não apenas como diagnóstico.
             </p>
             <CTAButton>
               <MessageCircle size={18} />
-              Quero ser acompanhado/a
+              Quero iniciar meu acompanhamento
             </CTAButton>
           </div>
 
@@ -301,7 +301,7 @@ function HowHelpSection() {
           <SectionLabel>A transformação possível</SectionLabel>
           <SectionTitle className="mb-5">Como o acompanhamento nutricional pode te ajudar</SectionTitle>
           <p className="font-body text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            O objetivo não é apenas um plano alimentar. É ajudar você a reconectar com o seu corpo, suas necessidades reais e a construir uma vida com mais leveza e bem-estar.
+            O objetivo não é apenas um plano alimentar. É ajudar você a reconectar com seu corpo, com suas necessidades reais e a construir uma vida com mais leveza e bem-estar.
           </p>
         </div>
 
@@ -345,7 +345,7 @@ function DifferentialsSection() {
     {
       icon: <Heart size={28} className="text-primary" />,
       title: "Olhar Humano e Sensível",
-      desc: "O cuidado vai além da nutrição. Aqui você é acolhido/a com respeito, sem julgamentos e com atenção real à sua história.",
+      desc: "O cuidado vai além da nutrição. Aqui cada pessoa é acolhida com respeito, sem julgamentos e com atenção real à sua história.",
     },
     {
       icon: <Leaf size={28} className="text-primary" />,
@@ -578,7 +578,7 @@ function ConscienciaNutreProgramSection() {
 
           <div className="bg-background rounded-3xl border border-border p-8 md:p-12 shadow-sm mb-10">
             <p className="font-body text-base text-muted-foreground leading-relaxed mb-8">
-              O nome não é apenas um título. Ele representa uma filosofia de atendimento: a convicção de que a nutrição, quando praticada com consciência, tem o poder de transformar não só o corpo, mas a forma como você se relaciona com a comida, com o seu dia a dia e consigo mesmo/a.
+              O nome não é apenas um título. Ele representa uma filosofia de atendimento: a convicção de que a nutrição, quando praticada com consciência, tem o poder de transformar não só o corpo, mas a forma como cada pessoa se relaciona com a comida, com o dia a dia e com a própria vida.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-4">
@@ -616,7 +616,7 @@ function BariatricProgramSection() {
     "Fome emocional que permanece após a cirurgia",
     "Dumping, entalos e desconfortos digestivos",
     "Queda de cabelo, fraqueza e deficiências nutricionais",
-    "Sensação de estar perdido/a no pós-operatório",
+    "Sensação de desorientação no pós-operatório",
   ];
 
   const outcomes = [
@@ -718,7 +718,7 @@ function FAQSection() {
     },
     {
       q: "O acompanhamento é individualizado?",
-      a: "100%. Não existem protocolos genéricos aqui. Cada pessoa tem uma história única, e o atendimento se adapta completamente à sua realidade, seus objetivos e suas necessidades clínicas e emocionais — independentemente do gênero.",
+      a: "100%. Não existem protocolos genéricos aqui. Cada pessoa tem uma história única, e o atendimento se adapta completamente à sua realidade, seus objetivos e suas necessidades clínicas e emocionais. O cuidado é para todas as pessoas, sem distinção.",
     },
     {
       q: "Qual o horário de atendimento?",
@@ -737,7 +737,7 @@ function FAQSection() {
           <SectionLabel>Dúvidas frequentes</SectionLabel>
           <SectionTitle className="mb-5">Perguntas frequentes</SectionTitle>
           <p className="font-body text-lg text-muted-foreground max-w-xl mx-auto leading-relaxed">
-            Ficou com alguma dúvida? Aqui estão as perguntas mais frequentes dos pacientes.
+            Ficou com alguma dúvida? Aqui estão as perguntas que chegam com mais frequência.
           </p>
         </div>
 
