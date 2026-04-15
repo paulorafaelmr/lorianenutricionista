@@ -135,7 +135,7 @@ function HeroSection() {
           <div className="flex justify-center">
             <div className="relative">
               {/* Foto profissional da Loriane */}
-              <div className="w-72 h-96 md:w-80 md:h-[440px] rounded-3xl shadow-xl overflow-hidden relative">
+              <div className="w-80 h-[460px] md:w-96 md:h-[560px] rounded-3xl shadow-xl overflow-hidden relative">
                 <img
                   src="https://pub-c0bfb119504542e0b2e6ebc8f6b3b1df.r2.dev/user-uploads/user_33CfYozYKp8m26XEVbFyTY5nq5r/371d2553-cc7f-4dfa-a034-0e154c2439e2.jpg"
                   alt="Loriane Costa Godinho - Nutricionista"
