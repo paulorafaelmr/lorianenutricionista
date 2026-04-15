@@ -60,11 +60,11 @@ function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-card/90 backdrop-blur-md border-b border-border shadow-sm">
       <div className="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-2">
-          <Leaf className="text-primary" size={22} />
-          <div>
-            <p className="font-display font-bold text-primary text-sm leading-tight">Loriane Costa Godinho</p>
-            <p className="font-body text-xs text-muted-foreground leading-tight">Nutrição Consciente</p>
-          </div>
+          <img
+            src="https://pub-c0bfb119504542e0b2e6ebc8f6b3b1df.r2.dev/user-uploads/user_33CfYozYKp8m26XEVbFyTY5nq5r/bc79f886-cc39-432b-97bf-b4fd169bd74b.png"
+            alt="Loriane Godinho - Logo"
+            className="h-10 w-auto object-contain"
+          />
         </div>
         <a
           href={WHATSAPP_URL}
