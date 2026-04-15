@@ -20,8 +20,8 @@ import {
   Star,
 } from "lucide-react";
 
-const WHATSAPP_NUMBER = "5543988100088";
-const WHATSAPP_URL = `https://wa.me/${WHATSAPP_NUMBER}?text=Ol%C3%A1%2C%20Loriane!%20Gostaria%20de%20agendar%20uma%20consulta.`;
+const WHATSAPP_NUMBER = "5543999039347";
+const WHATSAPP_URL = `https://api.whatsapp.com/send?phone=${WHATSAPP_NUMBER}`;
 
 function CTAButton({ children, className = "", large = false }: { children: React.ReactNode; className?: string; large?: boolean }) {
   return (
