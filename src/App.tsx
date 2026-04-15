@@ -414,10 +414,12 @@ function AboutSection() {
           {/* Foto placeholder */}
           <div className="flex justify-center md:justify-start">
             <div className="relative">
-              <div className="w-72 h-80 md:w-80 md:h-96 rounded-3xl border border-border shadow-xl flex flex-col items-center justify-center overflow-hidden relative" style={{ backgroundColor: "oklch(0.96 0.015 155)" }}>
-                <Leaf size={48} className="text-primary opacity-30 mb-4" />
-                <p className="font-display font-semibold text-primary text-center text-sm px-8">Foto da Loriane</p>
-                <p className="font-body text-xs text-muted-foreground text-center px-8 mt-1">Insira a foto do consultório ou da profissional</p>
+              <div className="w-72 h-80 md:w-80 md:h-96 rounded-3xl shadow-xl overflow-hidden">
+                <img
+                  src="https://pub-c0bfb119504542e0b2e6ebc8f6b3b1df.r2.dev/user-uploads/user_33CfYozYKp8m26XEVbFyTY5nq5r/78839a34-4256-4159-a2da-504d886673ce.jpg"
+                  alt="Loriane Costa Godinho - Nutricionista"
+                  className="w-full h-full object-cover object-top"
+                />
               </div>
               <div className="absolute -bottom-6 -right-6 bg-card rounded-2xl p-5 shadow-xl border border-border">
                 <div className="flex items-center gap-3">
