@@ -821,7 +821,7 @@ function LocationSection() {
               className="inline-flex items-center gap-1.5 font-body text-sm font-semibold text-accent hover:opacity-80 transition-opacity"
             >
               <Phone size={14} />
-              (43) 98810-0088
+              (43) 9903-9347
             </a>
           </div>
         </div>
@@ -865,7 +865,7 @@ function FinalCTASection() {
         </a>
 
         <p className="font-body text-sm text-primary-foreground opacity-60 mt-6">
-          (43) 98810-0088 · Londrina e Online
+          (43) 9903-9347 · Londrina e Online
         </p>
       </div>
     </section>
@@ -896,7 +896,7 @@ function Footer() {
             <div className="space-y-2">
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 font-body text-sm text-primary-foreground opacity-60 hover:opacity-90 transition-opacity">
                 <Phone size={14} />
-                (43) 98810-0088
+                (43) 9903-9347
               </a>
               <div className="flex items-start gap-2 font-body text-sm text-primary-foreground opacity-60">
                 <MapPin size={14} className="mt-0.5 shrink-0" />
