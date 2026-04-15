@@ -248,7 +248,7 @@ function PainsSection() {
       <div className="max-w-6xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div>
-            <SectionLabel>Você não está sozinho nessa</SectionLabel>
+            <SectionLabel>você não está só</SectionLabel>
             <SectionTitle className="mb-6">Eu sei o quanto isso é difícil</SectionTitle>
             <p className="font-body text-lg text-muted-foreground leading-relaxed mb-6">
               A relação com a alimentação vai muito além do que comemos. Ela carrega memórias, emoções, medos e histórias. E quando essa relação se torna um peso, o sofrimento é real, mesmo que invisível para quem está de fora.
