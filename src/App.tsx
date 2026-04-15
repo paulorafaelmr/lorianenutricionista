@@ -134,16 +134,13 @@ function HeroSection() {
 
           <div className="flex justify-center">
             <div className="relative">
-              {/* Placeholder foto profissional */}
-              <div className="w-72 h-96 md:w-80 md:h-[440px] rounded-3xl bg-card border border-border shadow-xl flex flex-col items-center justify-center gap-4 overflow-hidden relative">
-                <div className="absolute inset-0" style={{ backgroundColor: "oklch(0.96 0.015 155)" }} />
-                <div className="relative z-10 flex flex-col items-center gap-3">
-                  <div className="w-20 h-20 rounded-full flex items-center justify-center" style={{ backgroundColor: "oklch(0.90 0.05 155)" }}>
-                    <Leaf size={36} className="text-primary" />
-                  </div>
-                  <p className="font-display font-semibold text-primary text-center text-sm px-8">Foto da Loriane Costa Godinho</p>
-                  <p className="font-body text-xs text-muted-foreground text-center px-8">Insira sua foto profissional aqui</p>
-                </div>
+              {/* Foto profissional da Loriane */}
+              <div className="w-72 h-96 md:w-80 md:h-[440px] rounded-3xl shadow-xl overflow-hidden relative">
+                <img
+                  src="https://pub-c0bfb119504542e0b2e6ebc8f6b3b1df.r2.dev/user-uploads/user_33CfYozYKp8m26XEVbFyTY5nq5r/371d2553-cc7f-4dfa-a034-0e154c2439e2.jpg"
+                  alt="Loriane Costa Godinho - Nutricionista"
+                  className="w-full h-full object-cover object-top"
+                />
               </div>
               {/* Badge flutuante */}
               <div className="absolute -bottom-5 -left-6 bg-card rounded-2xl p-4 shadow-xl border border-border flex items-center gap-3">
