@@ -365,7 +365,7 @@ function DifferentialsSection() {
     <section className="py-24 bg-background">
       <div className="max-w-6xl mx-auto px-6">
         <div className="text-center mb-16">
-          <SectionLabel>O que nos diferencia</SectionLabel>
+          <SectionLabel>Diferenciais</SectionLabel>
           <SectionTitle className="mb-5">Um atendimento que vai além do plano alimentar</SectionTitle>
           <p className="font-body text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed italic" style={{ color: "oklch(0.40 0.06 155)" }}>
             "A nutrição é o ponto de encontro entre a ciência e o cuidado humano."
