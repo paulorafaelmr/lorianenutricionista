@@ -418,7 +418,7 @@ function AboutSection() {
           {/* Foto placeholder */}
           <div className="flex justify-center md:justify-start">
             <div className="relative">
-              <div className="w-72 h-80 md:w-80 md:h-96 rounded-3xl shadow-xl overflow-hidden">
+              <div className="w-80 h-[420px] md:w-96 md:h-[520px] rounded-3xl shadow-xl overflow-hidden">
                 <img
                   src="https://pub-c0bfb119504542e0b2e6ebc8f6b3b1df.r2.dev/user-uploads/user_33CfYozYKp8m26XEVbFyTY5nq5r/78839a34-4256-4159-a2da-504d886673ce.jpg"
                   alt="Loriane Costa Godinho - Nutricionista"
